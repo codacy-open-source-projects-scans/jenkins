@@ -46,8 +46,8 @@ THE SOFTWARE.
     <host>localhost</host>
     <!-- HTTP listener port -->
     <port>8080</port>
-    <mina-sshd-api.version>2.12.1-101.v85b_e08b_780dd</mina-sshd-api.version>
-    <node.version>20.13.1</node.version>
+    <mina-sshd-api.version>2.12.1-113.v4d3ea_5eb_7f72</mina-sshd-api.version>
+    <node.version>20.14.0</node.version>
     <!-- frontend-maven-plugin will install this Yarn version as bootstrap, then hand over control to Yarn Berry. -->
     <yarn.version>1.22.19</yarn.version>
     <!-- maven-antrun-plugin will download this Yarn version. -->
@@ -239,14 +239,14 @@ THE SOFTWARE.
                   <!-- detached after 1.561 -->
                   <groupId>org.jenkins-ci.plugins</groupId>
                   <artifactId>matrix-project</artifactId>
-                  <version>830.v7ea_da_561b_a_34</version>
+                  <version>832.va_66e270d2946</version>
                   <type>hpi</type>
                 </artifactItem>
                 <artifactItem>
                   <!-- dependency of command-launcher, junit, matrix-project, and workflow-support -->
                   <groupId>org.jenkins-ci.plugins</groupId>
                   <artifactId>script-security</artifactId>
-                  <version>1336.vf33a_a_9863911</version>
+                  <version>1341.va_2819b_414686</version>
                   <type>hpi</type>
                 </artifactItem>
                 <artifactItem>
@@ -307,7 +307,13 @@ THE SOFTWARE.
                   <version>5.5.0-1</version>
                   <type>hpi</type>
                 </artifactItem>
-
+                <artifactItem>
+                  <!-- dependency of trilead-api -->
+                  <groupId>io.jenkins.plugins</groupId>
+                  <artifactId>eddsa-api</artifactId>
+                  <version>0.3.0-4.v84c6f0f4969e</version>
+                  <type>hpi</type>
+                </artifactItem>
                 <artifactItem>
                   <!-- dependency of jackson2-api -->
                   <groupId>io.jenkins.plugins</groupId>
@@ -400,7 +406,7 @@ THE SOFTWARE.
                   <!-- detached after 2.184 -->
                   <groupId>org.jenkins-ci.plugins</groupId>
                   <artifactId>trilead-api</artifactId>
-                  <version>2.142.v748523a_76693</version>
+                  <version>2.147.vb_73cc728a_32e</version>
                   <type>hpi</type>
                 </artifactItem>
                 <artifactItem>
