@@ -298,14 +298,14 @@ THE SOFTWARE.
                   <!-- detached after 1.577 -->
                   <groupId>org.jenkins-ci.plugins</groupId>
                   <artifactId>junit</artifactId>
-                  <version>1265.v65b_14fa_f12f0</version>
+                  <version>1279.v72cf99b_25c43</version>
                   <type>hpi</type>
                 </artifactItem>
                 <artifactItem>
                   <!-- dependency of junit, plugin-util-api, and workflow-support -->
                   <groupId>org.jenkins-ci.plugins.workflow</groupId>
                   <artifactId>workflow-api</artifactId>
-                  <version>1316.v33eb_726c50b_a_</version>
+                  <version>1322.v857eeeea_9902</version>
                   <type>hpi</type>
                 </artifactItem>
                 <artifactItem>
