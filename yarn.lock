@@ -1001,9 +1001,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/preset-env@npm:7.29.0":
-  version: 7.29.0
-  resolution: "@babel/preset-env@npm:7.29.0"
+"@babel/preset-env@npm:7.29.2":
+  version: 7.29.2
+  resolution: "@babel/preset-env@npm:7.29.2"
   dependencies:
     "@babel/compat-data": "npm:^7.29.0"
     "@babel/helper-compilation-targets": "npm:^7.28.6"
@@ -1077,7 +1077,7 @@ __metadata:
     semver: "npm:^6.3.1"
   peerDependencies:
     "@babel/core": ^7.0.0-0
-  checksum: 10c0/08737e333a538703ba20e9e93b5bfbc01abbb9d3b2519b5b62ad05d3b6b92d79445b1dac91229b8cfcfb0b681b22b7c6fa88d7c1cc15df1690a23b21287f55b6
+  checksum: 10c0/d49cb005f2dbc3f2293ab6d80ee8f1380e6215af5518fe26b087c8961c1ea8ebaa554dfce589abe1fbebac25ad7c2515d943dec3859ea2d4981a3f8f4711c580
   languageName: node
   linkType: hard
 
@@ -4513,7 +4513,7 @@ __metadata:
   dependencies:
     "@babel/cli": "npm:7.28.6"
     "@babel/core": "npm:7.29.0"
-    "@babel/preset-env": "npm:7.29.0"
+    "@babel/preset-env": "npm:7.29.2"
     "@eslint/js": "npm:10.0.1"
     babel-loader: "npm:10.1.1"
     clean-webpack-plugin: "npm:4.0.0"
@@ -4543,7 +4543,7 @@ __metadata:
     stylelint-config-standard-scss: "npm:17.0.0"
     tippy.js: "npm:6.3.7"
     webpack: "npm:5.105.4"
-    webpack-cli: "npm:7.0.0"
+    webpack-cli: "npm:7.0.1"
     webpack-remove-empty-scripts: "npm:1.1.1"
     window-handle: "npm:1.0.1"
   languageName: unknown
@@ -7149,9 +7149,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack-cli@npm:7.0.0":
-  version: 7.0.0
-  resolution: "webpack-cli@npm:7.0.0"
+"webpack-cli@npm:7.0.1":
+  version: 7.0.1
+  resolution: "webpack-cli@npm:7.0.1"
   dependencies:
     "@discoveryjs/json-ext": "npm:^1.0.0"
     commander: "npm:^14.0.3"
@@ -7173,7 +7173,7 @@ __metadata:
       optional: true
   bin:
     webpack-cli: bin/cli.js
-  checksum: 10c0/014747110623b6134e291401c6b4fd9f835c1645e91a3d7b0e6e33f386b06cc812cc42a29915dd23aa8bcd21a710bba055fb5d496b5e510261a4b0bbffd4ceda
+  checksum: 10c0/e13eced1d8af0c0846f459fee01d19f426b7579aad2ed161d308ef18db8ad5a41b4bc980997793bdd7beff4435040ace11f181fedd6bea5bc82aad591a71ef04
   languageName: node
   linkType: hard
 
